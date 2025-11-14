@@ -13,7 +13,7 @@ COPY style.css /app/
 COPY logo.png /app/
 COPY storage /app/storage
 
-# залежності
+# залежності 
 COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
